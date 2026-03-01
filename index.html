@@ -1,116 +1,221 @@
 <!DOCTYPE html>
-<html lang="pt-PT">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfólio | Analista & Web Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Rannieri Mazzali - Web Developer & Financial Analyst. Transformando ideias em soluções digitais." />
+    <meta name="theme-color" content="#0a0e27" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    
+    <title>Rannieri Mazzali • Web Developer & Analyst</title>
 
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
+    <!-- BACKGROUND ANIMADO -->
+    <canvas id="bgCanvas" class="bg-canvas"></canvas>
+    <div class="stars-bg"></div>
 
     <header class="hero">
-        <h1>Analista Controller & Web Developer</h1>
-        <p>
-            Finanças • Controller de Stock • Análise de Dados • Desenvolvimento Web
-        </p>
-        <a href="#contacto" class="btn">Contactar</a>
-
-    
-
-
+        <div class="hero-content">
+            <div class="glow-text">
+                <h1 class="neon-text">Rannieri Mazzali</h1>
+                <p class="subtitle">Web Developer & Financial Analyst</p>
+            </div>
+            <p class="description">
+                Transformando ideias em soluções digitais • Construindo o futuro do web
+            </p>
+            <div class="cta-buttons">
+                <a href="#about" class="btn btn-primary">Explorar</a>
+                <a href="#contact" class="btn btn-secondary">Conectar</a>
+            </div>
+        </div>
     </header>
 
 
+    <section class="section" id="about">
+        <div class="section-header">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="title-line"></div>
+        </div>
+        <div class="about-grid">
+            <div class="about-text">
+                <p>
+                    Profissional dinâmico e versátil com <span class="highlight">+6 anos de experiência</span> em 
+                    <strong>finanças, análise de dados, liderança e desenvolvimento web</strong>.
+                </p>
+                <p>
+                    Especializado em <strong>HTML5, CSS3, JavaScript, React e TypeScript</strong>, 
+                    criei soluções web modernas que conectam usuários a oportunidades reais.
+                </p>
+                <p>
+                    Minha jornada combina <strong>expertise financeiro</strong> com <strong>inovação tecnológica</strong>, 
+                    permitindo-me construir produtos que não apenas funcionam, mas transformam negócios.
+                </p>
+            </div>
+            <div class="stats-container">
+                <div class="stat-box">
+                    <h3 class="stat-number">6+</h3>
+                    <p>Anos de Experiência</p>
+                </div>
+                <div class="stat-box">
+                    <h3 class="stat-number">20+</h3>
+                    <p>Liderados</p>
+                </div>
+                <div class="stat-box">
+                    <h3 class="stat-number">100%</h3>
+                    <p>Dedicação</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section dark-section">
+        <div class="section-header">
+            <h2 class="section-title">Experiência Profissional</h2>
+            <div class="title-line"></div>
+        </div>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <h3>Supervisor Financeiro & Analista Controller</h3>
+                    <span class="timeline-date">2021 - 2024 • 3 anos</span>
+                    <ul class="experience-list">
+                        <li><span class="check">✓</span> Controlo financeiro e análise avançada de custos</li>
+                        <li><span class="check">✓</span> Redução de 35% em despesas operacionais</li>
+                        <li><span class="check">✓</span> Gestão de stock e inventários</li>
+                        <li><span class="check">✓</span> Expertise em SAP ECC</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <h3>Supervisor de Equipa – Construção Civil</h3>
+                    <span class="timeline-date">2019 - 2022 • 3 anos | Turno Noturno</span>
+                    <ul class="experience-list">
+                        <li><span class="check">✓</span> Liderança de 20+ colaboradores</li>
+                        <li><span class="check">✓</span> Planeamento estratégico em tempo real</li>
+                        <li><span class="check">✓</span> Cumprimento de 100% dos prazos</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <h3>Sales & Operations Excellence</h3>
+                    <span class="timeline-date">2015 - 2019 • 4 anos</span>
+                    <ul class="experience-list">
+                        <li><span class="check">✓</span> Venda de automóveis e peças automotivas</li>
+                        <li><span class="check">✓</span> Consultoria imobiliária</li>
+                        <li><span class="check">✓</span> Gestão de eventos corporativos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <section class="section">
-        <h2>Rannieri Mazzali de Oliveira</h2>
-        <p>
-            Profissional com sólida experiência em <strong>finanças, controlo de stock,
-                análise de dados e liderança de equipas</strong>, atuando como Analista Controller
-            e Supervisor Financeiro durante mais de 3 anos.
-        </p>
-        <p>
-            Paralelamente, atuo como <strong>Web Developer</strong>, desenvolvendo websites
-            modernos e funcionais com HTML, CSS, JavaScript e React, focado na
-            resolução de problemas reais e otimização de processos empresariais.
-        </p>
-    </section>
-
-    <section class="section gray">
-        <h2>Experiência Profissional</h2>
-
-        <div class="card">
-            <h3>Supervisor Financeiro & Analista Controller</h3>
-            <span>3 anos</span>
-            <ul>
-                <li>Controlo financeiro e análise de custos</li>
-                <li>Redução significativa de despesas operacionais</li>
-                <li>Gestão de stock e inventários</li>
-                <li>Utilização de SAP ECC</li>
-                <li>Abertura e fechamento de stock diário</li>
-            </ul>
+        <div class="section-header">
+            <h2 class="section-title">Competências Técnicas</h2>
+            <div class="title-line"></div>
         </div>
 
-        <div class="card">
-            <h3>Supervisor de Equipa – Construção Civil</h3>
-            <span>3 anos | Turno Noturno</span>
-            <ul>
-                <li>Gestão de equipa com 20 colaboradores</li>
-                <li>Planeamento de tarefas e cumprimento de prazos</li>
-                <li>Experiência em trabalho remoto e presencial</li>
-            </ul>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h4 class="category-title">Frontend</h4>
+                <div class="skills-flex">
+                    <span class="skill-badge">HTML5</span>
+                    <span class="skill-badge">CSS3</span>
+                    <span class="skill-badge">JavaScript</span>
+                    <span class="skill-badge">React</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h4 class="category-title">Backend & Tools</h4>
+                <div class="skills-flex">
+                    <span class="skill-badge">Node.js</span>
+                    <span class="skill-badge">TypeScript</span>
+                    <span class="skill-badge">GitHub</span>
+                    <span class="skill-badge">APIs REST</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h4 class="category-title">Análise & Negócios</h4>
+                <div class="skills-flex">
+                    <span class="skill-badge">Análise de Dados</span>
+                    <span class="skill-badge">Controlo Financeiro</span>
+                    <span class="skill-badge">Gestão de Stock</span>
+                    <span class="skill-badge">SAP ECC</span>
+                </div>
+            </div>
+        </div>
+    </section>
+<br>
+<br>
+
+    <section class="section dark-section" id="contact">
+        <div class="section-header">
+            <h2 class="section-title">Vamos Conectar!</h2>
+            <div class="title-line"></div>
         </div>
 
-        <div class="card">
-            <h3>Vendas & Operações</h3>
-            <ul>
-                <li>Venda de automóveis e peças automotivas</li>
-                <li>Venda de imóveis</li>
-                <li>Montagem de eventos – Ribeirão Shopping (Multiplan)</li>
-            </ul>
+        <div class="contact-container">
+            <p class="contact-intro">Estou sempre pronto para discussões sobre web development, finanças e inovação</p>
+            
+            <div class="contact-grid">
+                <a href="mailto:rannieri.mazzali@outlook.com" class="contact-card">
+                    <span class="contact-icon">✉</span>
+                    <h3>Email</h3>
+                    <p>rannieri.mazzali@outlook.com</p>
+                </a>
+
+                <a href="https://www.linkedin.com/in/rannieri-mazzali-de-oliveira-54bb3a2b8/" target="_blank" rel="noopener noreferrer" class="contact-card">
+                    <span class="contact-icon">🔗</span>
+                    <h3>LinkedIn</h3>
+                    <p>Conecte comigo</p>
+                </a>
+
+                <a href="https://github.com/Rannieri-Mazzali" target="_blank" rel="noopener noreferrer" class="contact-card">
+                    <span class="contact-icon">⚙</span>
+                    <h3>GitHub</h3>
+                    <p>Veja meus projetos</p>
+                </a>
+
+                <a href="https://wa.me/351936745950" target="_blank" rel="noopener noreferrer" class="contact-card">
+                    <span class="contact-icon">💬</span>
+                    <h3>WhatsApp</h3>
+                    <p>Chat direto</p>
+                </a>
+            </div>
         </div>
     </section>
 
-
-    <section class="section">
-        <h2>Competências Técnicas</h2>
-
-        <div class="skills">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>React</span>
-            <span>GitHub</span>
-            <span>SAP ECC</span>
-            <span>Análise de Dados</span>
-            <span>Controlo Financeiro</span>
-            <span>Gestão de Stock</span>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2026 • Rannieri Mazzali • Architeto do Futuro Digital</p>
+            <p class="footer-subtitle">Construindo soluções que conectam pessoas e inovações</p>
         </div>
-    </section>
+        <div class="footer-glow"></div>
+    </footer>
 
+    <script src="script.js"></script>
+</body>
 
-    <section id="contacto" class="section gray">
-        <h2>Contacto</h2>
-      <p>Email: <a target="_blank" rel="noopener noreferrer" href="https://outlook.live.com/mail/0/?login_hint=rannieri.mazzali%40outlook.com">
-              <strong>rannieri.mazzali@outlook.com</strong></a></p>
-
-       <p>LinkedIn: <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/rannieri-mazzali-de-oliveira-54bb3a2b8/">
-             <strong>https://www.linkedin.com/in/rannieri-mazzali-de-oliveira-54bb3a2b8/</strong></a></p>
-
-        <p>GitHub: <a target="_blank" rel="noopener noreferrer" href="https://github.com/Rannieri-Mazzali">
-              <strong>https://github.com/Rannieri-Mazzali</strong></a></p>
-        <p>  <a target="_blank" rel="noopener noreferrer" href="https://wa.me/351936745950">Via Whatsapp</a>  </p>
-
-    </section>
-
-    <footer>
-        <p>© 2026 — Portfólio Profissional</p>
+</html></p>
     </footer>
 
     <script src="script.js"></script>
